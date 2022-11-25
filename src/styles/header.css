@@ -1,0 +1,132 @@
+/* .header{
+    width: 100%;
+    height: 150px;
+    background-color: rgb(36,33,33);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 1em;
+} */
+
+.header{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 350px;
+    background-image:url(../assets/gif1seg.gif);
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.wrapper{
+    display: flex;
+    flex-direction: row;
+    background-color: rgba(88, 92, 97, 0.34);
+    padding: 1em;
+    margin-bottom: .5em;
+}
+
+.wrapper .static-txt{
+    color: rgb(0, 181, 26);
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.wrapper .dynamic-txts{
+    margin-left: 13px;
+    line-height: 80px;
+    overflow: hidden;
+    height: 90px;
+}
+
+
+.dynamic-txts li {
+    color: white;
+    list-style: none;
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    top: 0;
+    animation: slide 6s steps(4) infinite;
+}
+
+@keyframes slide {
+    100%{
+        top: -326px;
+    }
+}
+
+.cv{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    border-radius: 8px;
+    border-color: rgb(0, 181, 26);
+    height: 40px;
+    width: 100px;
+    color: rgb(0, 181, 26);
+    background-color: rgba(28, 27, 27, 0.679);
+    box-shadow: var(--boxshadow);
+    cursor: pointer;
+    transition: .7s;
+}
+
+.cv:hover{
+    background-color: rgba(255, 255, 255, 0.481);
+    color: #7e9a88;
+    font-weight: bold;
+    box-shadow: 0px 0px 30px 7px var(--boxshadow);
+}
+
+.cv__container{
+    display: flex;
+    align-items: center;
+    gap: .5em;
+    margin-bottom: -.9rem ;
+}
+
+
+.dynamic-txts li span {
+    position: relative;
+}
+
+
+
+
+
+@media (min-width: 600px) {
+    .header{
+       grid-column: span 3;
+       height: 450px;
+       background-position: center;
+    }
+
+    .wrapper .static-txt{
+        font-size: 100px;
+
+    }
+
+    .wrapper .dynamic-txts{
+        height: 130px;
+        line-height: 150px;
+    }
+
+    .dynamic-txts li {
+        height: 225px;
+    }
+
+    .dynamic-txts li span {
+        border-bottom: 1px solid rgb(0, 181, 26);
+        font-size: 60px;
+    }
+
+    @keyframes slide {
+        100%{
+            top: -900px;
+        }
+    }
+
+}

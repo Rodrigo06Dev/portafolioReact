@@ -1,0 +1,209 @@
+.preload{
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100vh;
+    width: 100vw;
+    justify-content: center;
+    background: #333;
+}
+
+.card{
+    position: relative;
+    width: 350px;
+    height: 250px;
+    background: #333;
+    transition: .5s;
+}
+
+.card:hover{
+    height: 450px;
+}
+
+.card .lines{
+    position: absolute;
+    inset: 0;
+    background: #000;
+    overflow: hidden;
+}
+
+.card .lines::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 600px;
+    height: 120px;
+    background: linear-gradient(transparent, #28d742e2, #28d742e2, #28d742e2, transparent);
+    animation: animate 4s linear infinite;
+}
+
+@keyframes animate {
+    0%
+    {
+        transform: translate(-50%,-50%) rotate(0deg);
+    }
+    100%
+    {
+        transform: translate(-50%,-50%) rotate(360deg);
+    }
+}
+
+.card .lines::after{
+    content: '';
+    position: absolute;
+    inset:3px;
+    background: #292929;
+}
+
+.card .imgBx{
+    position: absolute;
+    top: -50px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+    height: 150px;
+    background: #000;
+    transition: .5s;
+    z-index: 10;
+    overflow: hidden;
+}
+
+.card:hover .imgBx{
+    width: 250px;
+    height: 250px;
+}
+
+.card .imgBx::before{
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 500px;
+    height: 150px;
+    background: linear-gradient(transparent, #ff3c7b, #ff3c7b, #ff3c7b, transparent);
+    animation: animate2 6s linear infinite;
+}
+
+@keyframes animate2 {
+    0%
+    {
+        transform: translate(-50%,-50%) rotate(360deg);
+    }
+    100%
+    {
+        transform: translate(-50%,-50%) rotate(0deg);
+    }
+}
+
+.card .imgBx::after{
+    content: '';
+    position: absolute;
+    inset:3px;
+    background: #292929;
+}
+
+.card .imgBx img{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    z-index: 1;
+    width: calc(100% - 20px);
+    height: calc(100% - 20px);
+    
+}
+
+.card .content{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.card .content .details{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 40px;
+    text-align: center;
+    width: 100%;
+    transition: .5s;
+    transform: translateY(135px);
+}
+.card:hover .content .details{
+    transform: translateY(120px);
+}
+
+.card .content .details h2{
+    font-size: 1.25em;
+    font-weight: 600;
+    color: #28d742e2;
+    line-height: 1.2em;
+}
+
+.card .content .details h2 span{
+    font-size: .75em;
+    font-weight: 500;
+    color: #fff;
+}
+
+.card .content .details .data{
+    display: flex;
+    justify-content: center;
+    gap: 4em;
+    margin: 20px 0px;
+}
+
+.card .content .details .data h3{
+    font-size: 1.25em;
+    line-height: 1.2em;
+    font-weight: 600;
+    color: #28d742e2;
+}
+
+.card .content .details .data h3 span{
+    font-size: .85em;
+    font-weight: 400;
+    color: #fff;
+}
+
+.actionBtn{
+    margin-bottom: -10px;
+}
+
+.card .content .details .actionBtn{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card .content .details .actionBtn button{
+    padding: 5px 30px;
+    border: none;
+    outline: none;
+    border-radius: 5px;
+    font-size: 0.7em;
+    font-weight: bold;
+    background: #28d742e2;
+    color: #222;
+    cursor: pointer;
+}
+
+.btn2{
+    display: none;
+}
+
+
+.card.hover .btn2{
+    display: block;
+}
+
+.card:hover .btn1{
+    display: none;
+}

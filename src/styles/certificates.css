@@ -1,0 +1,31 @@
+.container__certificates{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1.5em;
+    margin-top: 20px;
+}
+
+.card__certificate{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card__certificate-img {
+    width: 350px;
+    height: 250px;
+    box-shadow: 6px 6px 10px -1px rgba(42, 29, 29, 0.954);
+}
+
+.card__certificate-img:hover{
+    transition: box-shadow 250ms ese;
+    border: 1px solid rgba(246, 232, 229, 0.98);
+    cursor: pointer;
+}
+
+@media (min-width: 980px) {
+    .container__certificates{
+        gap: 18px;
+    }
+}

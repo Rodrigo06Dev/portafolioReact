@@ -1,0 +1,65 @@
+[
+
+    {
+        "name": "Ecommerce",
+        "urlDomain": "https://prismatic-conkies-e43160.netlify.app/",
+        "img": "../projects/commerce.png",
+        "description": "React Ecommerce"
+    },
+    {
+        "name": "Poke Api",
+        "urlDomain": "https://gentle-biscochitos-430020.netlify.app/",
+        "img": "../projects/poke.png",
+        "description": "Api Management"
+       
+    },
+    {
+        "name": "Rick & Morty Api",
+        "urlDomain": "https://resonant-hummingbird-cac6cb.netlify.app/",
+        "img": "../projects/rick.png",
+        "description": "Api Management"
+        
+    },
+    {
+        "name": "CRUD App",
+        "urlDomain": "https://ornate-cranachan-cb593a.netlify.app/",
+        "img": "../projects/CRUD.png",
+        "description": "React User Crud"
+        
+    },
+    {
+        "name": "Weather-app",
+        "urlDomain": "https://iridescent-sprite-0d0966.netlify.app/",
+        "img": "../projects/weather-app.png",
+        "description": "Api Management"
+      
+    },
+    {
+        "name": "Task App",
+        "urlDomain": "https://aquamarine-selkie-81b704.netlify.app/",
+        "img": "../projects/task.png",
+        "description": "React User Crud"
+        
+    },
+    {
+        "name": "Calculator App",
+        "urlDomain": "https://tranquil-panda-13a378.netlify.app/",
+        "img": "../projects/calculator.png",
+        "description": "React App"
+       
+    },
+    {
+        "name": "Quotes App",
+        "urlDomain": "https://loquacious-longma-4c60ce.netlify.app/",
+        "img": "../projects/quotes.png",
+        "description": "React App"
+        
+    },
+    {
+        "name": "Rock-paper-scissors",
+        "urlDomain": "https://celadon-fenglisu-41b8b6.netlify.app/",
+        "img": "../projects/PPT.png",
+        "description": "JavaScript Vanilla"
+        
+    }
+]

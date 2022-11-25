@@ -1,0 +1,28 @@
+.about__container{
+    margin: auto;
+    margin-top: 20px;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.about__container-text{
+    max-width: 1100px;
+    box-shadow: 0px 0px 20px 2px rgba(133, 158, 142, 0.042);
+    padding: 2em;
+}
+
+.container__pcenter{
+    background-color: #e17d879f;
+    height: 2.5em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.pcenter{
+    text-align: center;
+    margin: auto;
+}

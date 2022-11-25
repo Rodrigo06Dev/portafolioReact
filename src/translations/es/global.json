@@ -1,0 +1,27 @@
+{
+    "preload": {
+        "span": "Ing. Sistemas | FullStak",
+        "button": "Entrar"
+    },
+
+    "about": {
+        "p1": "Creatividad ilimitada, responsabilidad absoluta y 0% miedo de aprender todo lo que sea necesario para ser parte del crecimiento y éxito de un equipo.",
+        "p2": "¿Por qué soy el developer correcto para tu proyecto?",
+        "p3": "Me considero una persona sanamente competitiva y a la vez muy empática, me gusta ayudar en todo el que pueda, ver crecer los proyectos en los que me involucro, y ser parte importante de su éxito.",
+        "p4": "Poseo características de liderazgo, y creo que mi entusiasmo por seguir aprendiendo cada día es contagioso.",
+        "p5": "Estoy preparado para afrontar cualquier reto."
+    },
+
+    "navbar": {
+        "li2":"Proyectos",
+        "li3":"Certificados"
+    },
+
+    "navinfo": {
+        "title":"SOBRE MI",
+        "span":"¡Hola! estaré encantado de ser parte de tu proyecto",
+        "li1":"Diseño Web",
+        "li2":"Responsivo",
+        "contac": "Hablemos"
+    }
+}

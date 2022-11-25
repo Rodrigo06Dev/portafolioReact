@@ -1,0 +1,36 @@
+[
+    {
+        "name": "Fundamentos JS, HTML, CSS. Academlo",
+        "urlDomain": "https://certificates.academlo.com/en/verify/05500707435182",
+        "img": "../img/fundamentos.png"
+    },
+
+    {
+        "name": "Conceptos de Programación. Open Bootcamp",
+        "urlDomain": "https://community.open-bootcamp.com/user/rodrigodev06/certificaciones/2f912ccc-dab0-4b4c-a2d6-e103ba99f97b",
+        "img": "../img/conceptos.png"
+    },
+
+    {
+        "name": "HTML y CSS. Open Bootcamp",
+        "urlDomain": "https://community.open-bootcamp.com/user/rodrigodev06/certificaciones/5cbeeffd-5804-45f0-876e-96505a7af516",
+        "img": "../img/html.png"
+    },
+
+    {
+        "name": "Introduccion a la Programacion. Open Bootcamp",
+        "urlDomain": "https://community.open-bootcamp.com/user/rodrigodev06/certificaciones/f85cee76-dd2b-4529-9d43-2030bab5a9f7",
+        "img": "../img/intro.png"
+    },
+    {
+        "name": "JavaScript. Open Bootcamp",
+        "urlDomain": "https://community.open-bootcamp.com/user/rodrigodev06/certificaciones/a5f481a8-d194-4d6c-a11f-fd4fc74a09b6",
+        "img": "../img/js.png"
+    },
+    {
+        "name": "Front-End Development with React",
+        "urlDomain": "https://certificates.academlo.com/en/verify/76878345308277",
+        "img": "../img/react.png"
+    }
+   
+]

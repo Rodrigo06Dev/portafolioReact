@@ -1,0 +1,14 @@
+:root {
+    --background: white;
+    --text-primary: rgba(26, 29, 29, 0.784);
+    --text-secondary: royalblue;
+    --accent: purple;
+    --boxshadow: rgba(0, 0, 0, 0.427);
+  }
+  [data-theme='dark'] {
+    --background: rgb(27, 26, 20);
+    --text-primary: white;
+    --text-secondary: grey;
+    --accent: darkred;
+    --boxshadow: rgba(50, 56, 56, 0.362);
+  }

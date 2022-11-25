@@ -1,0 +1,27 @@
+{
+    "preload": {
+        "span": "System Eng. | FullStak",
+        "button": "Enter"
+    },
+
+    "about": {
+        "p1": "Unlimited creativity, absolute responsibility and 0% fear of learning whatever it takes to be a part of a team's growth and success.",
+        "p2": "Why am I the right developer for your project?",
+        "p3": "I consider myself a healthy competitive person and at the same time very empathetic, I like to help as much as I can, to see the projects I get involved in grow, and to be an important part of their success.",
+        "p4": "I possess leadership characteristics, and I believe that my enthusiasm to keep learning every day is contagious.",
+        "p5": "I am ready to face any challenge."
+    },
+
+    "navbar": {
+        "li2":"Projects",
+        "li3":"Certificates"
+    },
+
+    "navinfo": {
+        "title":"ABOUT ME",
+        "span":"Hey! I'll be glad to help your project",
+        "li1":"Web Design",
+        "li2":"Mobile Design",
+        "contac": "Contact with me"
+    }
+}
